@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-
+  drones: string[] = [
+    'Polski',
+    'Niemiecki',
+    'Francuski',
+    'Amerykański',
+    'Izraelski'
+  ];
 }
