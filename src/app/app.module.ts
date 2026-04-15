@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DroneComponent } from './drone/drone.component';
 import { PowiekszDirective } from './powieksz.directive';
+import { ListaComponent } from './lista/lista.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PowiekszDirective } from './powieksz.directive';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule,
+    ListaComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
